@@ -1,5 +1,13 @@
-  /*font-family: 'Noto Serif', 'Times New Roman', serif;*/
-  /*font-family: 'Inter', Arial, sans-serif;*/
+/*"""
+font-family: 'Noto Serif', 'Times New Roman', serif;
+font-family: 'Inter', Arial, sans-serif;
+header-bg, contrast font: #FFF
+main font color: #000
+accents, buttons: #2f80ed
+input borders, placeholders: #838383
+hours, address: #6F6F6F
+recipe background: #0A2750
+"""*/
 .page{
   min-width: 1100px;
   max-width: 1600px;
@@ -7,5 +15,35 @@
   font-size: 16px;
   line-height: 20px;
   font-family: 'Inter', Arial, sans-serif;
+}
+
+.header{
+  background-color: #FFF
+}
+.header__bg-image{
+
+}
+
+.content{
+
+}
+
+.recipes{
+
+}
+
+.reservation{
+
+}
+
+.menu{
+
+}
+
+.about{
+
+}
+
+.footer{
 
 }
