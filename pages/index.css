@@ -16,7 +16,7 @@ recipe background: #0A2750
   font-size: 16px;
   line-height: 20px;
   font-family: 'Inter', Arial, sans-serif;
-  font-family: 'Noto Serif', 'Times New Roman', serif;
+  /*font-family: 'Noto Serif', 'Times New Roman', serif;*/
 }
 
 .header{
@@ -192,6 +192,10 @@ recipe background: #0A2750
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+}
+
+.recipes__iframe{
+  border: 0;
 }
 
 .reservation{
