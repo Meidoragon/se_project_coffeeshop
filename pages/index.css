@@ -18,12 +18,4 @@ recipe background: #0A2750
 @import url(../blocks/menu.css);
 @import url(../blocks/card.css);
 @import url(../blocks/about.css);
-
-/*
-.about{
-
-}
-
-.footer{
-
-}*/
+@import url(../blocks/footer.css);
