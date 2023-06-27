@@ -219,15 +219,18 @@ recipe background: #0A2750
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*padding: 100px auto 120px;*/
   padding-top: 100px;
   padding-bottom: 120px;
-  /*padding-left:*/
 }
 
 .reservation__title{
   margin: 0 auto 0 auto;
   text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .reservation__form{
@@ -268,7 +271,12 @@ recipe background: #0A2750
 }
 
 .form__input::placeholder{
-  color: #000
+  color: #838383;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__button{
@@ -276,6 +284,11 @@ recipe background: #0A2750
   height: 60px;
   background-color: #2f80ed;
   color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   transition: opacity .1s ease-in-out;
 }
 
