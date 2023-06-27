@@ -7,7 +7,6 @@
     <meta name="author" content="meduka the guca"/>
     <meta name="keywords" content="cohi gween-tea"/>
     <link rel="shortcut icon" href="favicon.ico"/>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,13 +14,6 @@
     <title>Cohi</title>
   </head>
 
-<!--
-  TODO:
-    video embeds are centered to element not to page. correct this fault.
-      this will likely be fixed by removing section margins
-    lots of instances of repeated font declarations. figure out how they are inherited, and then make them use that information, only overwriting when other information is necessary.
-    make the form react to user action, input boxes light up on hover, or when when a box is selected, etc.
-  -->
   <body>
     <div class="page">
 <!--Header section-->
@@ -32,11 +24,6 @@
             alt="Cafe logo"
             class="nav__logo"
           />
-          <!--<img
-            src="./images/logo_coffeeshop_light.svg"
-            alt="Cafe logo"
-            class="nav__logo"
-          />-->
         <ul class="nav__links">
           <li>
             <a href="#recipes" class="nav__link">Recipes</a>
@@ -70,7 +57,8 @@
           </div>
         </div>
       </header>
-<!------------------------------------------------------------------------->
+
+<!----------------------------Recipe Section------------------------------->
       <main class="content">
         <section id="recipes" class="recipes">
           <h2 class="recipes__title">Recipes</h2>
@@ -92,7 +80,7 @@
             </div>
           </div>
         </section>
-<!------------------------------------------------------------------------->
+<!--------------------------Reservation Section---------------------------->
         <section id="reservation" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <div class="reservation__form-container">
@@ -149,13 +137,16 @@
             </form>
           </div>
         </section>
+<!-----------------------------Menu Section-------------------------------->
         <section id="menu" class="menu">
 
         </section>
+<!-----------------------------About Section------------------------------->
         <section id="about" class="about">
 
         </section>
       </main>
+<!----------------------------Footer Section------------------------------->
       <footer id="contacts" class="footer">
 
       </footer>
