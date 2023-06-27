@@ -154,6 +154,7 @@ recipe background: #0A2750
 }
 
 .recipes{
+  margin: 0;
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-position: center;
@@ -260,12 +261,7 @@ recipe background: #0A2750
   height: 60px;
   max-width: 385px;
   margin: 8px 0 32px;
-  /* transition: box-shadow .2s ease-in-out; */
 }
-
-/* .form__input:focus{
-  box-shadow: 0 0 8px #2f80ed;
-} */
 
 .form__input::placeholder{
   color: #000
@@ -281,7 +277,6 @@ recipe background: #0A2750
 
 .form__button:hover{
   opacity: 70% ;
-  /*Change opacity to 70% smoothly*/
 }
 .form__checkbox-wrapper{
   margin: 32px 0 0;
@@ -294,43 +289,7 @@ recipe background: #0A2750
   border-radius: 2px;
   width: 20px;
   height: 20px;
-  /* appearance: none; */
-  /*text should be level with box, apparently, wrap inside the label tag, then target the label to control placement*/
-  /*check.svg is for if I style it myself, delete it if not.*/
 }
-
-/* .form__alternate-box{
-  display: block;
-  margin: 0;
-  align-content: center;
-  border-radius: 2px;
-  width: 20px;
-  height: 20px;
-  background-color: #AAA;
-  border-color: #838383;
-  transition: box-shadow .2s ease-in-out;
-  transition:
-}
-
-input[type="checkbox"]:disabled + span{
-  background-color: #444;
-}
-
-input[type="checkbox"]:checked + span{
-  background-image: url(../images/check.svg);
-  background-repeat: no-repeat;
-  background-size: 90%;
-  background-position: center;
-  animation: check-anim .5s 1 linear forwards;
-}
-
-input[type="checkbox"]:hover + span{
-  box-shadow: 0 0 8px #2f80ed;
-}
-
-.form__label_assigned-to_checkbox{
-  margin: 0;
-} */
 
 /*.menu{
 
