@@ -20,7 +20,8 @@
     video embeds are centered to element not to page. correct this fault.
       this will likely be fixed by removing section margins
     lots of instances of repeated font declarations. figure out how they are inherited, and then make them use that information, only overwriting when other information is necessary.
--->
+    make the form react to user action, input boxes light up on hover, or when when a box is selected, etc.
+  -->
   <body>
     <div class="page">
 <!--Header section-->
@@ -93,7 +94,73 @@
         </section>
 <!------------------------------------------------------------------------->
         <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <div class="reservation__form-container">
+            <form class="reservation__form">
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">Name *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form__input"
+                  placeholder="Name Surname"
+                  required
+                />
+                <label for="guests" class="form__label">Number of guests *</label>
+                <input
+                  type="number"
+                  id="guests"
+                  name="guests"
+                  class="form__input"
+                  placeholder="1-8"
+                  required
+                  min=1
+                  max=8
+                />
+                <label for="datetime" class="form__label">Date & Time *</label>
+                <input
+                  type="datetime-local"
+                  id="datetime"
+                  name="datetime"
+                  class="form__input"
+                  required
+                />
+                <label for="email" class="form__label">Your email *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form__input"
+                  required
+                  placeholder="email@email.com"
+                />
+                <button type="submit" class="form__button">Book a table</button>
+                  <!--<label for="agreement" class="form__label">
+                    <div class="form__checkbox-wrapper">
+                      <input
+                        type="checkbox"
+                        class="form__checkbox"
+                        id="agreement"
+                        name="agreement"
+                      />
+                      <span class="form__alternate-box"></span>
+                      <p class="form__label form__label_assigned-to_checkbox">I agree to the terms of use</p>
+                    </div>
 
+                  </label>-->
+                <div class="form__checkbox-wrapper">
+                  <input
+                      type="checkbox"
+                      class="form__checkbox"
+                      id="agreement"
+                      name="agreement"
+                    />
+                  <label for="agreement" class="form__label">I agree to the terms of use</label>
+                </div>
+              </fieldset>
+            </form>
+          </div>
         </section>
         <section id="menu" class="menu">
 
