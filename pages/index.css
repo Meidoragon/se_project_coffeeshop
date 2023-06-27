@@ -254,6 +254,10 @@ recipe background: #0A2750
 .form__label{
   margin: 0;
   font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__input{
