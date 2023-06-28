@@ -1,11 +1,11 @@
 .card{
   width: 540px;
+
 }
 
 .card__title{
   margin:0 0 32px;
   font-family: 'Inter', Arial, sans-serif;;
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
@@ -20,14 +20,16 @@
 .card__list-item{
   display: flex;
   padding: 0;
-  margin: 0;
   margin: 16px 0 0;
   align-items:baseline;
-  font-family: 'Noto Serif';
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Noto Serif', 'Times New Roman', serif;
   font-size: 16px;
   line-height: 20px;
+  /*these two also appear to not inherit from .page, but they do seem to inherit from .card if I put them there*/
+}
+
+.card__list-item:first-of-type{
+  margin: 0;
 }
 
 .card__list-divider{
@@ -35,5 +37,5 @@
   border-bottom: 1px;
   border-bottom-style: solid;
   border-bottom-color: #000;
-  margin:0;
+  margin:0 5px;
 }

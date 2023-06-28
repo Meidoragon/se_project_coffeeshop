@@ -24,7 +24,6 @@
   flex-direction: row;
   align-content:baseline;
   justify-content: space-between;
-  font-style: normal; /*all descendant text uses this style*/
 }
 
 .about__title{
@@ -41,9 +40,9 @@
 .about__paragraphs{
   display: flex;
   flex-direction: column;
+  margin: 19px 0 0;
   gap: 20px;
   font-family: 'Noto Serif', 'Times New Roman', serif;;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
 }
@@ -70,7 +69,5 @@
   animation-name: pulsate;
   animation-duration: 1.3s;
   animation-timing-function: ease-in-out;
-  /*animation-delay: 0;*/
   animation-iteration-count: infinite;
-  /*animation: pulsate 1.3s ease-in-out 0 infinite;*/
 }

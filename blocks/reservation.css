@@ -10,8 +10,10 @@
 
 .reservation__title{
   margin: 0 auto 0 auto;
+  font-family: 'Inter', Arial, sans-serif;
+  /*explicitly defined because it seems to not want to inherit from .page
+  maybe overridden by some default attached to something more specific than .page?*/
   text-align: center;
-  font-family: 'Inter', Arial, sans-serif;;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -21,13 +23,8 @@
 .reservation__form{
   margin: 0;
   padding: 0;
-
-}
-
-.reservation__form-container{
   display: flex;
   max-width: 385px;
   flex-direction: column;
   margin: 80px auto 0;
 }
-

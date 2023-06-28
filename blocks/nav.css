@@ -1,9 +1,7 @@
 .nav{
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 80px;
+  margin: 0;
   align-items: flex-start;
 
 }
@@ -25,15 +23,10 @@
 
 .nav__link{
   color: #000;
-  font-weight: bold;
   text-decoration: none;
-  font-family: 'Inter', Arial, sans-serif;;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .nav__link:hover{
-  color: #2f80ed; /*change this later to correct value*/
+  color: #2f80ed;
 }
